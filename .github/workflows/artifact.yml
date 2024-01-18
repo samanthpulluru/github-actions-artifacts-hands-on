@@ -38,5 +38,5 @@ jobs:
         ls -lrta 
         ls -lrta ./artifacts
 
-    - name: Read file
+    - name: Display content of the text file
       run: cat ./artifacts/hello.txt
