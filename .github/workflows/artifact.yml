@@ -27,7 +27,7 @@ jobs:
     - name: Create directory
       run: mkdir ./artifacts
       
-    - name: Download file
+    - name: Download text file
       uses: actions/download-artifact@v2
       with:
         name: hello-artifact
